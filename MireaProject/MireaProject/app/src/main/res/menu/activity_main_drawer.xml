@@ -18,11 +18,16 @@
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/calculateFragment"
-            android:icon="@drawable/ic_launcher_foreground"
+            android:icon="@android:drawable/ic_dialog_dialer"
             android:title="Calculate" />
         <item
             android:id="@+id/webViewFragment"
             android:icon="@drawable/ic_menu_gallery"
             android:title="WebView" />
+
+        <item
+            android:id="@+id/playerFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="MusicPlayer" />
     </group>
 </menu>

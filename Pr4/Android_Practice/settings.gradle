@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Practica4"
 include ':thread'
+include ':data_thread'
+include ':looper'
+include ':loadermanger'
+include ':workmanager'

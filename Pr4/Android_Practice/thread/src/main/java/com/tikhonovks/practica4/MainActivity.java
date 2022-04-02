@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     int counter = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         infoTextView.setText("Текущий поток: " + mainThread.getName());
         mainThread.setName("MireaThread");
         infoTextView.append("\n Новое имя потока: " + mainThread.getName());
-
-
     }
 
     public void onClick(View view) {
@@ -42,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 Log.i("ThreadProject", "Выполнен поток № " + numberThread);
+            }
+        };
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+
+    public void onCountClick(View view) {
+        Runnable runnable = new Runnable() {
+            public void run() {
+                int count = (9 + 19) * 2 / 30;
+                TextView textView = findViewById(R.id.Numberdays);
+                textView.setText("Среднее количествопар в день: " + count);
             }
         };
         Thread thread = new Thread(runnable);

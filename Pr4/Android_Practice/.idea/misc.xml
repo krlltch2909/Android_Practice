@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="data_thread/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="loadermanger/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="looper/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
         <entry key="thread/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="workmanager/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
       </map>
     </option>
   </component>
