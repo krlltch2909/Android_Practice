@@ -3,6 +3,11 @@
     package="com.tikhonovks.mireaproject">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -13,9 +18,26 @@
         android:theme="@style/Theme.MireaProject"
         android:usesCleartextTraffic="true">
         <service
+            android:name=".ui.voice_recorder.MyService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+
+        <service
             android:name=".ui.player.Player"
             android:enabled="true"
             android:exported="true"></service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.tikhonovks.mireaproject.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
 
         <activity
             android:name=".MainActivity"

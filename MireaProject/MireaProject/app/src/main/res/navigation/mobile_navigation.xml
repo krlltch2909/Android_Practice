@@ -38,6 +38,24 @@
     <fragment
         android:id="@+id/playerFragment"
         android:name="com.tikhonovks.mireaproject.ui.player.PlayerFragment"
-        android:label="Web View"
+        android:label="Player"
         tools:layout="@layout/fragment_player" />
+
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="com.tikhonovks.mireaproject.ui.sensor.SensorFragment"
+        android:label="Sensor"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.tikhonovks.mireaproject.ui.camera.CameraFragment"
+        android:label="Sensor"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/voice_recorder"
+        android:name="com.tikhonovks.mireaproject.ui.voice_recorder.voice_recorder_Fragment"
+        android:label="Recorder"
+        tools:layout="@layout/fragment_voice_recorder" />
+
 </navigation>
