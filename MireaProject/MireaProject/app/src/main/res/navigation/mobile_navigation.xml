@@ -57,5 +57,16 @@
         android:name="com.tikhonovks.mireaproject.ui.voice_recorder.voice_recorder_Fragment"
         android:label="Recorder"
         tools:layout="@layout/fragment_voice_recorder" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.tikhonovks.mireaproject.ui.options.SettingsFragment"
+        android:label="Recorder"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/stories"
+        android:name="com.tikhonovks.mireaproject.ui.history.StoriesFragment"
+        android:label="Recorder"
+        tools:layout="@layout/fragment_stories" />
+
 
 </navigation>

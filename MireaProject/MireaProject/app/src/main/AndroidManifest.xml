@@ -15,6 +15,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".ui.history.App"
         android:theme="@style/Theme.MireaProject"
         android:usesCleartextTraffic="true">
         <service
@@ -38,6 +39,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/filepaths" />
         </provider>
+
+        <activity
+            android:name=".ui.history.StoryView"
+            android:exported="true" />
 
         <activity
             android:name=".MainActivity"

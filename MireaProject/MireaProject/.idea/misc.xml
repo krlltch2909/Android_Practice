@@ -5,17 +5,24 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/fragment_help.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_player.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_sensor.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/fragment_stories.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_voice_recorder.xml" value="0.20606884057971014" />
         <entry key="app/src/main/res/layout/fragment_web_view.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/story_view.xml" value="0.20108695652173914" />
+        <entry key="app/src/main/res/menu-v23/activity_main_drawer.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/main.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/xml/filepaths.xml" value="0.16621376811594202" />
