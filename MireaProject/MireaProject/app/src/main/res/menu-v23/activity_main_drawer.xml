@@ -55,5 +55,10 @@
             android:icon="@android:drawable/ic_dialog_dialer"
             android:title="Stories" />
 
+        <item
+            android:id="@+id/webRes"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="webInfo(Time)" />
+
     </group>
 </menu>

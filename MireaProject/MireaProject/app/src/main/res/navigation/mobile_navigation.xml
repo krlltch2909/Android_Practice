@@ -68,5 +68,11 @@
         android:label="Recorder"
         tools:layout="@layout/fragment_stories" />
 
+    <fragment
+        android:id="@+id/webRes"
+        android:name="com.tikhonovks.mireaproject.ui.webRes.WebInfoFragment"
+        android:label="webRes"
+        tools:layout="@layout/fragment_web_info" />
+
 
 </navigation>

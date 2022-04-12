@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/autification.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.16621376811594202" />
@@ -18,6 +19,7 @@
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_stories.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_voice_recorder.xml" value="0.20606884057971014" />
+        <entry key="app/src/main/res/layout/fragment_web_info.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_web_view.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.16621376811594202" />
