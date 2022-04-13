@@ -45,6 +45,10 @@
             android:exported="true" />
 
         <activity
+            android:name=".ui.ducks.DuckAdd"
+            android:exported="false"/>
+
+        <activity
             android:name=".MainActivity"
             android:exported="false"/>
 

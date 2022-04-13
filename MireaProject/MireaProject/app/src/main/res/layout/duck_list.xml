@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/numa1"
+        android:id="@+id/numa1Duck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:text="number" />
+        android:text="name" />
 
     <TextView
-        android:id="@+id/numa2"
+        android:id="@+id/numa2Duck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
-        android:text="ip" />
+        android:text="learnerd phrase" />
 
     <TextView
-        android:id="@+id/numa3"
+        android:id="@+id/numa3Duck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:text="mac " />
+        android:text="age " />
 
 
 </LinearLayout>

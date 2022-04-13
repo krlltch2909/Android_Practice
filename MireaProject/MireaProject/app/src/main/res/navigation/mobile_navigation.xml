@@ -74,5 +74,11 @@
         android:label="webRes"
         tools:layout="@layout/fragment_web_info" />
 
+    <fragment
+        android:id="@+id/ducks"
+        android:name="com.tikhonovks.mireaproject.ui.ducks.DuckFragment"
+        android:label="ducks"
+        tools:layout="@layout/fragment_duck" />
+
 
 </navigation>

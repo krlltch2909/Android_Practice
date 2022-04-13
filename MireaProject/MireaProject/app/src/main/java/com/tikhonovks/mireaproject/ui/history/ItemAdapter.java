@@ -54,9 +54,9 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.StoryViewHolde
 
         public StoryViewHolder(View itemView) {
             super(itemView);
-            numbers = (TextView) itemView.findViewById(R.id.numb);
-            ipAdd = (TextView) itemView.findViewById(R.id.ipAdd);
-            macAdd = (TextView) itemView.findViewById(R.id.macAdd);
+            numbers = (TextView) itemView.findViewById(R.id.numa1);
+            ipAdd = (TextView) itemView.findViewById(R.id.numa2);
+            macAdd = (TextView) itemView.findViewById(R.id.numa3);
 
         }
     }

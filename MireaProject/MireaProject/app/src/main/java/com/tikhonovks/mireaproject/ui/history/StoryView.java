@@ -39,15 +39,11 @@ public class StoryView extends AppCompatActivity {
     public void saveBtn(View view) {
 
         Item item =new Item();
-
-
-
         item.number = number.getText().toString();
         item.ip = ipAdd.getText().toString();
         item.mac = macAdd.getText().toString();
 
         itemDao.insert(item);
-
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);

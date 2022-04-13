@@ -8,8 +8,11 @@
         <entry key="app/src/main/res/layout/autification.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/duck_list.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/duck_view.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/fragment_duck.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.16621376811594202" />
         <entry key="app/src/main/res/layout/fragment_help.xml" value="0.20108695652173914" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.16621376811594202" />

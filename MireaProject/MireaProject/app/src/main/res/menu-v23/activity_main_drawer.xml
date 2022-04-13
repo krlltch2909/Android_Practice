@@ -60,5 +60,9 @@
             android:icon="@android:drawable/ic_lock_idle_alarm"
             android:title="webInfo(Time)" />
 
+        <item
+            android:id="@+id/ducks"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Ducks" />
     </group>
 </menu>
