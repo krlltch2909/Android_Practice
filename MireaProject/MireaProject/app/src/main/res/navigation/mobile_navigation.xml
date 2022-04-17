@@ -80,5 +80,10 @@
         android:label="ducks"
         tools:layout="@layout/fragment_duck" />
 
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.tikhonovks.mireaproject.ui.map.MapsFragment"
+        android:label="map"
+        tools:layout="@layout/fragment_maps" />
 
 </navigation>

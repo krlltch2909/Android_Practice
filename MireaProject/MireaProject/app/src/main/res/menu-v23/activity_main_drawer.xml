@@ -64,5 +64,10 @@
             android:id="@+id/ducks"
             android:icon="@android:drawable/ic_dialog_dialer"
             android:title="Ducks" />
+
+        <item
+            android:id="@+id/maps"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Maps" />
     </group>
 </menu>
